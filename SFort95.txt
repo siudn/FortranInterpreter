@@ -1,0 +1,114 @@
+SFort95: a Simple Fortan 95-Like programming language.
+
+============================
+Grammar rules: EBNF notation
+============================
+
+1. Prog ::= PROGRAM IDENT {Decl} {Stmt} END PROGRAM IDENT
+2. Decl ::= Type :: VarList
+3. Type ::= INTEGER | REAL | CHARACTER [(LEN = ICONST)]
+4. VarList ::= Var [= Expr] {, Var [= Expr]}
+5. Stmt ::= AssigStmt | BlockIfStmt | PrintStmt | SimpleIfStmt
+6. PrintStmt ::= PRINT *, ExprList
+7. BlockIfStmt ::= IF (RelExpr) THEN {Stmt} [ELSE {Stmt}] END IF
+8. SimpleIfStmt ::= IF (RelExpr) SimpleStmt
+9. SimpleStmt ::= AssigStmt | PrintStmt
+10. AssignStmt ::= Var = Expr
+11. ExprList ::= Expr {, Expr}
+12. RelExpr ::= Expr [ ( == | < | > ) Expr ]
+13. Expr ::= MultExpr { ( + | - | // ) MultExpr }
+14. MultExpr ::= TermExpr { ( * | / ) TermExpr }
+15. TermExpr ::= SFactor { ** SFactor }
+16. SFactor ::= [+ | -] Factor
+17. Var ::= IDENT
+18. Factor ::= IDENT | ICONST | RCONST | SCONST | (Expr)
+
+====================================
+Table of Operators Precedence Levels
+====================================
+
+Precedence   Operator       Description                               Associativity
+------------------------------------------------------------------------------------
+1            Unary +, -     Unary plus, minus                         Right-to-Left
+2            **             Exponentiation                            Right-to-Left
+3            *, /           Multiplication, Division                  Left-to-Right
+4            +, -, //       Addition, Subtraction, Concatenation      Left-to-Right
+5            <, >, ==       Less than, greater than, and equality     (no cascading)
+
+=========================
+Additional Things to Note
+=========================
+
+1. The language has three types: integer, real, and character.
+
+2. Declaring a variable does not automatically assign a value, say zero, to this variable, until a
+value has been assigned to it. Variables can be given initial values in the declaration statements
+using initialization expressions and literals.
+
+INTEGER :: i = 5, j = 100
+REAL :: x, y = 1.0E5
+
+3. CHARACTER variables can refer to one character, or to a string of characters which is achieved
+by adding a length specifier to the object declaration. In this language, all character variables
+are assumed to be initialized with blank character(s) based on their lengths, if they are not
+initialized. The following are all valid declarations of the variables, where grade is of one
+character, and name is of 10 characters. Both are initialized with blank string.
+
+CHARACTER :: grade
+CHARACTER(LEN=10):: name
+
+The following two declarations of the character variable are initialized, where light variable
+is initialized by the first character of the string ‘Amber’, and the boat variable is initialized
+by the string 'Wellie' padded, to the right, with 3 blanks.
+
+CHARACTER :: light = 'Amber'
+CHARACTER(LEN=9) :: boat = 'Wellie'
+
+4. The precedence rules of operators in the language are as shown in the table of operators’
+precedence levels.
+
+5. The PLUS (+), MINUS (-), MULT (*), DIV (/), and CATenation (//) operators are left associative.
+
+6. The unary operators (+, -) and exponentiation (**) are right-to-left associative.
+
+7. A BlockIfStmt evaluates a relational expression (RelExpr) as a condition. If the condition value
+is true, then the If-clause statements are executed, otherwise they are not. An else clause for a
+BlockIfSmt is optional. Therefore, if an Else-clause is defined, the Else-clause statements are
+executed when the condition value is false.
+
+8. A SimpleIfStmt evaluates a relational expression (RelExpr) as a condition. The If-clause for a
+SimpleIfStmt is just one Simple statement (SimpleStmt). If the condition value is true, then the
+If-clause statement is executed, otherwise it is not. No Else-clause is associated with a
+SimpleIfStmt.
+
+9. A PrintStmt statement evaluates the list of expressions (ExprList), and prints their values in
+order from left to right followed by a newline.
+
+10. The ASSOP operator ( = ) in the AssignStmt assigns a value to a variable. It evaluates the Expr
+on the right-hand side (RHS) and saves its value in a memory location associated with the left-
+hand side (LHS) variable (Var). A left-hand side variable of a Numeric type must be assigned
+a numeric value. Type conversion must be automatically applied if the right-hand side numeric
+value of the evaluated expression does not match the numeric type of the left-hand side
+variable. While a left-hand side variable of character type must be assigned a value of a string
+that has the same length as the left-hand variable length in the declaration statement. If the
+length of the RHS string is greater than the LHS string variable, it would be truncated,
+otherwise the RHS string would be padded by blank characters.
+
+11. The binary operations for addition, subtraction, multiplication, and division are performed
+upon two numeric operands (i.e., INTEGER, REAL) of the same or different types. If the
+operands are of the same type, the type of the result is the same type as the operator’s operands.
+Otherwise, the type of the result is REAL. While the binary concatenation operator is
+performed upon two operands of CHARACTER types (i.e. strings).
+
+12. The exponentiation operation is performed on REAL type operands only.
+
+13. Similarly, relational operators (==, <, and >) operate upon two compatible type operands.
+Numeric types (i.e., INTEGER and REAL) are compatible, and evaluation is based on
+converting an integer type operand to real if the two operands are of different numeric types.
+However, numeric types are not compatible with CHARACTER type. The evaluation of a
+relational expression produces either a logical true or false value. For all relational operators,
+no cascading is allowed.
+
+14. The unary sign operators (+ or -) are applied upon unary numeric type operands only.
+
+15. It is an error to use a variable in an expression before it has been assigned.

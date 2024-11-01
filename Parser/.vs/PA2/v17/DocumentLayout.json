@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shadm\\source\\repos\\Parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:PA 2 Test Cases\\test5||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5.correct||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:PA 2 Test Cases\\test5.correct||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\prog2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:prog2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:PA 2 Test Cases\\test3||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3.correct||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DAF96EC-FE88-4D51-9D41-45FFC6F72CC3}|PA2.vcxproj|solutionrelative:PA 2 Test Cases\\test3.correct||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test5.correct",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5.correct",
+              "RelativeDocumentMoniker": "PA 2 Test Cases\\test5.correct",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5.correct",
+              "RelativeToolTip": "PA 2 Test Cases\\test5.correct",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T07:45:13.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test5",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5",
+              "RelativeDocumentMoniker": "PA 2 Test Cases\\test5",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test5",
+              "RelativeToolTip": "PA 2 Test Cases\\test5",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T07:45:13.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "parser.cpp",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\parser.cpp",
+              "RelativeDocumentMoniker": "parser.cpp",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\parser.cpp",
+              "RelativeToolTip": "parser.cpp",
+              "ViewState": "AQIAAKsCAAAAAAAAAAAAANICAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T07:45:13.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "test3.correct",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3.correct",
+              "RelativeDocumentMoniker": "PA 2 Test Cases\\test3.correct",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3.correct",
+              "RelativeToolTip": "PA 2 Test Cases\\test3.correct",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T07:45:13.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test3",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3",
+              "RelativeDocumentMoniker": "PA 2 Test Cases\\test3",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\PA 2 Test Cases\\test3",
+              "RelativeToolTip": "PA 2 Test Cases\\test3",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T07:45:13.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "prog2.cpp",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Parser\\prog2.cpp",
+              "RelativeDocumentMoniker": "prog2.cpp",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Parser\\prog2.cpp",
+              "RelativeToolTip": "prog2.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T07:45:13.808Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shadm\\source\\repos\\Interpreter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|solutionrelative:Interpreter Test Cases\\test4||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4.correct||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|solutionrelative:Interpreter Test Cases\\test4.correct||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|solutionrelative:Interpreter Test Cases\\test2||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2.correct||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7921542-1B91-499B-BC30-5B76C570329C}|Interpreter.vcxproj|solutionrelative:Interpreter Test Cases\\test2.correct||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test4",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4",
+              "RelativeDocumentMoniker": "Interpreter Test Cases\\test4",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4",
+              "RelativeToolTip": "Interpreter Test Cases\\test4",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T08:00:43.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test4.correct",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4.correct",
+              "RelativeDocumentMoniker": "Interpreter Test Cases\\test4.correct",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test4.correct",
+              "RelativeToolTip": "Interpreter Test Cases\\test4.correct",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T08:00:41.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test2",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2",
+              "RelativeDocumentMoniker": "Interpreter Test Cases\\test2",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2",
+              "RelativeToolTip": "Interpreter Test Cases\\test2",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T08:00:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test2.correct",
+              "DocumentMoniker": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2.correct",
+              "RelativeDocumentMoniker": "Interpreter Test Cases\\test2.correct",
+              "ToolTip": "C:\\Users\\shadm\\source\\repos\\Interpreter\\Interpreter Test Cases\\test2.correct",
+              "RelativeToolTip": "Interpreter Test Cases\\test2.correct",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T08:00:37.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

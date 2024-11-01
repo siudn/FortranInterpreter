@@ -1,0 +1,12 @@
+﻿  lex.cpp
+C:\Users\shadm\source\repos\HelloWorld\lex.h(57,30): warning C4458: declaration of 'token' hides class member
+  (compiling source file 'lex.cpp')
+  C:\Users\shadm\source\repos\HelloWorld\lex.h(42,8):
+  see declaration of 'LexItem::token'
+  
+C:\Users\shadm\source\repos\HelloWorld\lex.h(58,30): warning C4458: declaration of 'token' hides class member
+  (compiling source file 'lex.cpp')
+  C:\Users\shadm\source\repos\HelloWorld\lex.h(42,8):
+  see declaration of 'LexItem::token'
+  
+  HelloWorld.vcxproj -> C:\Users\shadm\source\repos\HelloWorld\x64\Debug\HelloWorld.exe

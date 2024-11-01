@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Test Cases">
+      <UniqueIdentifier>{aa29cc16-23dc-4d9b-b19a-190492d905a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prog2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Parser Test Cases\test1">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test1.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test2">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test2.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test3">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test3.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test4">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test4.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test5">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test5.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test6">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test6.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test7">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test7.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test8">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test8.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test9">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test9.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test10">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test10.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test11">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test11.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test12">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test12.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test13">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test13.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test14">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test14.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test15">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test15.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test16">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test16.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test17">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test17.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test18">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test18.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test19">
+      <Filter>Test Cases</Filter>
+    </None>
+    <None Include="Parser Test Cases\test19.correct">
+      <Filter>Test Cases</Filter>
+    </None>
+  </ItemGroup>
+</Project>
